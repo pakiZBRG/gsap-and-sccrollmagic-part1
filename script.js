@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .from('.four', 3, {top: '40px', autoAlpha: 0}, '-=2.5')
       .from('.text', 3, {y: 60, autoAlpha: 0}, '-=2')
       .to('.content-image-wrapper h4', 3, {top: 20, opacity: 0.9}, '-=2')
+      .to('.content-image-wrapper h5', 3, {top: -10, opacity: 0.9}, '-=3')
 
 
    let scene = new ScrollMagic.Scene({
